@@ -1,0 +1,38 @@
+NaCl QE-scf                             ! optional title
+
+ &CONTROL
+    calculation = 'scf',                ! type of calculation
+    restart_mode ='from_scratch',
+    prefix = 'nacl',
+    outdir = './',
+    tstress = .true.,                   ! calculate pressure
+    tprnfor = .true.,                   ! calculate forces
+    verbosity = 'high',
+    ! lines are skipped if starting with `!`
+ /
+
+ &SYSTEM
+    ibrav =  2,                         ! FCC
+    celldm(1) = 10.571,                 ! lattice constant (Bohr)
+    nat =  2,                           ! total number of atoms in unit cell
+    ntyp = 2,                           ! number of atomic species
+    nbnd = 10,                          ! number of electronic states (bands) to be calculated
+    ecutwfc = 50,                       ! kinetic energy cutoff (Ry) for wavefunctions
+    ecutrho = 600,                      ! kinetic energy cutoff (Ry) for charge density and potential
+ /
+
+ &ELECTRONS
+    mixing_beta = 0.7,                  ! mixing factor for self-consistency
+    conv_thr = 1.0d-10,                 ! SCF convergence threshold
+ /
+
+ ATOMIC_SPECIES
+    Na  22.9898   na_pbe_v1.5.uspp.F.UPF   ! atomic species, mass and pseudopotential
+    Cl  35.453    cl_pbe_v1.4.uspp.F.UPF
+
+ ATOMIC_POSITIONS {crystal}
+    Na 0.00 0.00 0.00
+    Cl 0.50 0.50 0.50
+
+ K_POINTS {automatic}
+    5 5 5 0 0 0
