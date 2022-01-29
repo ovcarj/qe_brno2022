@@ -1,0 +1,11 @@
+ &INPUTPP
+     prefix = 'nacl'
+     outdir = './.'
+     filplot = 'NaCl.charge'
+     plot_num= 0
+ /
+ &PLOT
+     iflag = 3
+     output_format = 5
+     fileout = 'NaCl-rho.xsf'
+ /

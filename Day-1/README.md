@@ -5,7 +5,7 @@
 
 - Performing and understanding a basic SCF calculation
 - Performing convergence tests of SCF calculations
-- TBA
+- Exploring basic usage of the postprocessing program pp.x
 - TBA
 
 -----------
@@ -22,4 +22,10 @@
                 w.r.t. ecutwfc and k-point density
 
     cd example2.convergence
+    less README.md
+
+**Exercise 3:** Plot the ground state charge density
+                of a NaCl crystal
+
+    cd example3.pp
     less README.md
