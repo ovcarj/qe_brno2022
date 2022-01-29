@@ -4,7 +4,7 @@
 ### Topics of Day-1 hands-on session
 
 - Performing and understanding a basic SCF calculation
-- TBA
+- Performing convergence tests of SCF calculations
 - TBA
 - TBA
 
@@ -18,8 +18,8 @@
     cd example1.scf
     less README.md
 
-**Exercise 2:** Describe Exercise 2
-                and continue description
-                and continue description
+**Exercise 2:** Perform convergence tests
+                w.r.t. ecutwfc and k-point density
 
-    cd example2.name2/
+    cd example2.convergence
+    less README.md
