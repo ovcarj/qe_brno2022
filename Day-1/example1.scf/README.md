@@ -20,9 +20,14 @@
    Press OK when prompted.
 
 
-3. Run the SCF calculation using `pw.x`
+3. Run the SCF calculation using `pw.x`:
 
        pw.x -in nacl-scf.in | tee nacl-scf.out
+
+   If you don't want the output to be written on the screen during
+   the calculation, you can run the calculation by:
+
+       pw.x -in nacl-scf.in > nacl-scf.out
 
 
 4. Read the `nacl-scf.out` output file, showing the line numbers:
