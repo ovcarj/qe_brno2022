@@ -6,6 +6,8 @@
 - Performing and understanding a basic SCF calculation
 - Performing convergence tests of SCF calculations
 - Exploring basic usage of the postprocessing program pp.x
+- Calculating the density of states
+- TBA
 - TBA
 
 -----------
@@ -28,4 +30,10 @@
                 of a NaCl crystal
 
     cd example3.pp
+    less README.md
+
+**Exercise 4:** Plot the density of states (DOS) of
+                Ag crystal
+
+    cd example4.dos
     less README.md

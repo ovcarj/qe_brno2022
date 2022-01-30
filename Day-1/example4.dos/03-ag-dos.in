@@ -1,0 +1,8 @@
+Ag QE-in
+
+ &DOS
+   outdir = './',
+   prefix = 'ag',
+   fildos='Ag-dos.dat',
+   DeltaE=0.1,
+ /
