@@ -10,6 +10,7 @@
 - Calculating the band structure
 - Plotting the Fermi surface
 - Calculating formation energy and charge transfer
+- Treating nonperiodic systems and plotting Kohn-Sham orbitals
 
 -----------
 
@@ -55,4 +56,9 @@
                 charge transfer due to bond formation on a LiC6 surface.
 
     cd example7.charge
+    less README.md
+
+**Exercise 8:** Plot the Kohn-Sham orbitals of a single benzene (C6H6) molecule.
+
+    cd example8.ks
     less README.md
