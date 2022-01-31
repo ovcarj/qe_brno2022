@@ -1,0 +1,6 @@
+Ag QE-in
+
+ &BANDS
+    prefix = 'ag',
+    filband = 'Ag-bands.dat'
+ /

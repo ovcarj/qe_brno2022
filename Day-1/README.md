@@ -7,7 +7,7 @@
 - Performing convergence tests of SCF calculations
 - Plotting the ground state charge density
 - Calculating the density of states
-- TBA
+- Calculating the band structure
 - TBA
 
 -----------
@@ -33,7 +33,13 @@
     less README.md
 
 **Exercise 4:** Plot the density of states (DOS) of
-                Ag crystal.
+                an Ag crystal.
 
     cd example4.dos
+    less README.md
+
+**Exercise 5:** Plot the band structure of
+                an Ag crystal.
+
+    cd example5.bands
     less README.md
