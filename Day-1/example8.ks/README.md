@@ -1,5 +1,5 @@
 # PURPOSE OF THE EXERCISE: 
-## How to calculate and plot molecular orbitals of benzene (actually sign(psi(r))*|psi(r)|^2)
+## How to calculate and plot molecular orbitals of benzene
 -------------------------------------------------------
 
 **Disclaimer**
