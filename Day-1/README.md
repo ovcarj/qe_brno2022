@@ -8,7 +8,7 @@
 - Plotting the ground state charge density
 - Calculating the density of states
 - Calculating the band structure
-- TBA
+- Plotting the Fermi surface
 
 -----------
 
@@ -43,3 +43,10 @@
 
     cd example5.bands
     less README.md
+
+**Exercise 6:** Plot the Fermi surface of
+                an Ag crystal.
+
+    cd example6.fs
+    less README.md
+

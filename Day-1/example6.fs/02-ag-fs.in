@@ -1,0 +1,6 @@
+Ag QE-in
+
+ &FERMI
+    prefix = 'ag',
+    outdir = './',
+  /
