@@ -1,0 +1,6 @@
+ &INPUTPP
+     prefix = 'c6'
+     outdir = './.'
+     filplot = 'C6.charge'
+     plot_num= 0
+ /

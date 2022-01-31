@@ -1,0 +1,6 @@
+ &INPUTPP
+     prefix = 'lic6'
+     outdir = './.'
+     filplot = 'LiC6.charge'
+     plot_num= 0
+ /

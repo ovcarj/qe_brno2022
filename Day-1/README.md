@@ -9,6 +9,7 @@
 - Calculating the density of states
 - Calculating the band structure
 - Plotting the Fermi surface
+- Calculating formation energy and charge transfer
 
 -----------
 
@@ -50,3 +51,8 @@
     cd example6.fs
     less README.md
 
+**Exercise 7:** Calculate the formation energy and observe
+                charge transfer due to bond formation on a LiC6 surface.
+
+    cd example7.charge
+    less README.md

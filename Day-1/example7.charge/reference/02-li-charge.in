@@ -1,0 +1,6 @@
+ &INPUTPP
+     prefix = 'li'
+     outdir = './.'
+     filplot = 'Li.charge'
+     plot_num= 0
+ /
