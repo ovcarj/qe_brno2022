@@ -1,0 +1,10 @@
+Fe QE-in
+
+ &DOS
+   outdir = './',
+   prefix = 'fe_nfm',
+   Emin = 13.0
+   Emax = 23.0
+   fildos='Fe_nfm-dos.dat',
+   DeltaE=0.1,
+ /

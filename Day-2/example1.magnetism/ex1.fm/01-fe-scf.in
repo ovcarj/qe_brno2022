@@ -1,0 +1,40 @@
+Fe QE-in
+
+ &CONTROL
+    calculation = 'scf',
+    restart_mode ='from_scratch',
+    prefix = 'fe',
+    outdir = './',
+    verbosity = 'high',
+    tstress = .true.,
+    tprnfor = .true.,
+  /
+
+ &SYSTEM
+    ibrav =  3,
+    celldm(1) = 5.36034117878995788,
+    nat =  1,
+    ntyp = 1,
+    nbnd = 20,
+    ecutwfc = 50,
+    ecutrho = 600,
+    occupations = 'smearing',
+    smearing = 'methfessel-paxton',
+    degauss = 0.001,
+    nspin = 2,
+    starting_magnetization(1) = 0.5
+ /
+
+ &ELECTRONS
+    mixing_beta = 0.5,
+    conv_thr =  1.0d-10,
+ /
+
+ ATOMIC_SPECIES
+    Fe  55.847  fe_pbe_v1.5.uspp.F.UPF
+
+ ATOMIC_POSITIONS {crystal}
+    Fe 0.00 0.00 0.00
+
+ K_POINTS {automatic}
+    20 20 20 0 0 0
