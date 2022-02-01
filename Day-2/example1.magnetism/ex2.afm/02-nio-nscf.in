@@ -1,0 +1,51 @@
+NiO QE-in
+
+ &CONTROL
+    calculation = 'nscf',
+    restart_mode ='from_scratch',
+    prefix = 'nio',
+    outdir = './',
+    verbosity = 'high',
+    tstress = .true.,
+    tprnfor = .true.,
+  /
+
+ &SYSTEM
+    ibrav = 0,
+    celldm(1) = 7.88015794,
+    nat =  4,
+    ntyp = 3,
+    nbnd = 30,
+    ecutwfc = 50.0,
+    ecutrho = 600.0,
+    occupations = 'tetrahedra',
+    smearing = 'methfessel-paxton',
+    degauss = 0.001,
+    nspin = 2,
+    starting_magnetization(2) = +0.5
+    starting_magnetization(3) = -0.5
+ /
+
+ &ELECTRONS
+    mixing_beta = 0.7,
+    conv_thr =  1.0d-10,
+ /
+
+ ATOMIC_SPECIES
+    O    15.9994  o_pbe_v1.2.uspp.F.UPF
+    Ni1  58.5934  ni_pbe_v1.4.uspp.F.UPF
+    Ni2  58.5934  ni_pbe_v1.4.uspp.F.UPF
+
+ ATOMIC_POSITIONS {crystal}
+    O     0.25 0.25 0.25
+    O     0.75 0.75 0.75
+    Ni1   0.00 0.00 0.00
+    Ni2   0.50 0.50 0.50
+
+ CELL_PARAMETERS
+    0.5  0.5  1.0
+    0.5  1.0  0.5
+    1.0  0.5  0.5
+
+ K_POINTS {automatic}
+    12 12 12 0 0 0

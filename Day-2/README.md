@@ -17,6 +17,7 @@
                 Plot the DOS projected on atomic d-orbitals.
                 Perform an SCF calculation
                 on an antiferromagnetic NiO crystal.
+                Learn about the DFT+U (Hubbard) correction.
 
     cd example1.magnetism
     less README.md

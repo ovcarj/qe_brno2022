@@ -1,0 +1,10 @@
+NiO QE-in
+
+ &DOS
+   outdir = './',
+   prefix = 'nio_hub',
+   Emin = 8.0,
+   Emax = 19.0,
+   fildos='NiO_hub-dos.dat',
+   DeltaE=0.1,
+ /

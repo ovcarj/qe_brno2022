@@ -1,0 +1,9 @@
+ &PROJWFC
+   outdir = './',
+   prefix = 'nio_hub',
+   Emin = 5.0,
+   Emax = 19.0,
+   degauss = 0.01,
+   deltaE = 0.02,
+   filpdos = 'PDOS/nio_hub'
+ /
