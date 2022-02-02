@@ -22,3 +22,16 @@
     cd example1.magnetism
     less README.md
 
+**Exercise 2:** Relax the cell and atomic positions
+                of a NaCl crystal.
+
+    cd example2.optimization
+    less README.md
+
+**Exercise 3:** Calculate the phonon frequencies
+                of a NaCl crystal at gamma-point.
+                Calculate the LO-TO splitting.
+                Calculate the phonon dispersion and DOS.
+
+    cd example2.optimization
+    less README.md

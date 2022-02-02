@@ -1,0 +1,45 @@
+NaCl QE-scf
+
+ &CONTROL
+    calculation = 'vc-relax',
+    restart_mode ='from_scratch',
+    prefix = 'nacl',
+    outdir = './',
+    tstress = .true.,
+    tprnfor = .true.,
+    verbosity = 'high',
+ /
+
+ &SYSTEM
+    ibrav =  2,
+    celldm(1) = 10.571,
+    nat =  2,
+    ntyp = 2,
+    ecutwfc = 50,
+    ecutrho = 600
+ /
+
+ &ELECTRONS
+    mixing_beta = 0.7,
+    conv_thr = 1.0d-10,
+ /
+
+ &IONS
+    ion_dynamics = 'bfgs',
+ /
+
+ &CELL
+    cell_dofree = 'ibrav',
+    press = 0.0,
+ /
+
+ ATOMIC_SPECIES
+    Na  22.9898   na_pbe_v1.5.uspp.F.UPF
+    Cl  35.453    cl_pbe_v1.4.uspp.F.UPF
+
+ ATOMIC_POSITIONS {crystal}
+    Na 0.00 0.00 0.00
+    Cl 0.50 0.50 0.50
+
+ K_POINTS {automatic}
+    5 5 5 0 0 0
