@@ -35,7 +35,7 @@
     less README.md
 
 **Exercise 4:** Compare cell and atomic positions
-                relaxations with PBE and `vdw-df-cx`
+                relaxations with PBE, LDA and `vdw-df-cx`
                 functionals.
 
     cd example4.vdw

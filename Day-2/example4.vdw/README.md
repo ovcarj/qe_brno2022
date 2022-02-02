@@ -1,5 +1,5 @@
 # PURPOSE OF THE EXERCISE: 
-## Compare the vc relaxations of graphite with PBE and vdw-df-cx
+## Compare the vc relaxations of graphite with PBE, LDA and vdw-df-cx
 -------------------------------------------------------
 
 **Steps to perform:**
@@ -9,7 +9,7 @@
        less /home/user/repo/q-e/Modules/funct.f90
 
 
-2. Relax the graphite structure with the `PBE` (default) functional:
+2. Relax the graphite structure with the `PBE` functional:
 
        pw.x -in 01-graphite-pbe.in | tee 01-graphite-pbe.out
 
@@ -22,5 +22,10 @@
    used by the functional.
 
 
-4. Compare the two relaxations with XcrySDen. 
-   What are the final interlayer distances in the two cases?
+4. Relax the graphite structure with the `LDA` functional
+   by choosing the `C.pbe-rrkjus.UPF` pseudopotential.
+
+
+5. Compare the relaxations with XcrySDen. 
+   What are the final interlayer distances in the three cases?
+   Note: the experimental interlayer distance is 3.336 A.
