@@ -9,3 +9,5 @@ This exercise consists of two examples.
 * `ex1.gamma/`      -- phonon frequencies at gamma-point, LO-TO splitting
 
 * `ex2.dispersion/` -- phonon dispersion and DOS
+
+

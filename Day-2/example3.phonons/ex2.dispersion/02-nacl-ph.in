@@ -1,0 +1,10 @@
+ &INPUTPH
+  tr2_ph  = 1.0d-16
+  prefix  = 'nacl'
+  outdir  = './'
+  epsil = .true.
+  fildyn  = 'NaCl.dyn'
+  ldisp=.true.,
+  nq1=3, nq2=3, nq3=3
+ /
+0.0 0.0 0.0

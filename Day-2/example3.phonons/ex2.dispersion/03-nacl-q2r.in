@@ -1,0 +1,5 @@
+ &INPUT
+    fildyn='NaCl.dyn',
+    zasr='simple',
+    flfrc='NaCl333.fc'
+ /

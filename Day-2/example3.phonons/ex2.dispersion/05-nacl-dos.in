@@ -1,0 +1,11 @@
+&INPUT
+    asr='simple',
+    amass(1)= 22.9898,
+    amass(2)= 35.453,
+    flfrc='NaCl333.fc',
+    flfrq='NaCl-phdos.freq'
+    dos=.TRUE.,
+    fldos='NaCl-phdos.dat',
+    deltaE=1.d0,
+    nk1=10, nk2=10, nk3=10,
+ /
