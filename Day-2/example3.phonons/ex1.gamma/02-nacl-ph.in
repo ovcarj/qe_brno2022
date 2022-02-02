@@ -1,0 +1,7 @@
+ &INPUTPH
+  tr2_ph  = 1.0d-16
+  prefix  = 'nacl'
+  outdir  = './'
+  fildyn  = 'NaCl.dynG'
+ /
+0.0 0.0 0.0

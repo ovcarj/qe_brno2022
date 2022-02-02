@@ -33,5 +33,5 @@
                 Calculate the LO-TO splitting.
                 Calculate the phonon dispersion and DOS.
 
-    cd example2.optimization
+    cd example3.phonons
     less README.md

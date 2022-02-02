@@ -1,0 +1,6 @@
+&INPUT
+ fildyn = 'NaCl_epsil.dynG',
+ filout = 'NaCl.phon',
+ asr = 'simple',
+ q(1)=0.1, q(2)=0.0, q(3)=0.0,
+/

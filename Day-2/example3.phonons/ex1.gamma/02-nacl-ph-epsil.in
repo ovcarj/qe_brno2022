@@ -1,0 +1,8 @@
+ &INPUTPH
+  tr2_ph  = 1.0d-16
+  prefix  = 'nacl'
+  outdir  = './'
+  epsil = .true.
+  fildyn  = 'NaCl_epsil.dynG'
+ /
+0.0 0.0 0.0
