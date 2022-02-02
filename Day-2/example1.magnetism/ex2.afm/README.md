@@ -46,6 +46,8 @@
 6. The results of the above calculations with the DFT+U correction
    are also given:
 
+       cp -r reference/010203-nio-hub/* .
+
    To reproduce them, run:
 
        pw.x -in 01-nio-hub-scf.in | tee 01-nio-hub-scf.out
