@@ -6,9 +6,7 @@
 - Magnetic systems & projection to atomic orbitals
 - Structure optimization
 - Phonons
-- TBA
-- TBA
-- TBA
+- Van der Waals functional
 
 -----------
 
@@ -34,4 +32,11 @@
                 Calculate the phonon dispersion and DOS.
 
     cd example3.phonons
+    less README.md
+
+**Exercise 4:** Compare cell and atomic positions
+                relaxations with PBE and `vdw-df-cx`
+                functionals.
+
+    cd example4.vdw
     less README.md
