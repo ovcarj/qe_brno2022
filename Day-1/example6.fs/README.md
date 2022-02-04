@@ -8,8 +8,6 @@
 
        pw.x -in 01-ag-scf.in | tee 01-ag-scf.out
 
-   (or copy the results from previous exercises).
-
 
 2. Calculate the Fermi surface:
 
