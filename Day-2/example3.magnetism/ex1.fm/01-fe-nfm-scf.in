@@ -16,11 +16,11 @@ Fe QE-in
     nat =  1,
     ntyp = 1,
     nbnd = 20,
-    ecutwfc = 50,
-    ecutrho = 600,
+    ecutwfc = 40,
+    ecutrho = 400,
     occupations = 'smearing',
     smearing = 'methfessel-paxton',
-    degauss = 0.001,
+    degauss = 0.01,
     nspin = 2,
     starting_magnetization(1) = 0.0
  /
@@ -37,4 +37,4 @@ Fe QE-in
     Fe 0.00 0.00 0.00
 
  K_POINTS {automatic}
-    20 20 20 0 0 0
+    10 10 10 0 0 0
