@@ -16,11 +16,9 @@ NiO QE-in
     nat =  4,
     ntyp = 3,
     nbnd = 30,
-    ecutwfc = 50.0,
-    ecutrho = 600.0,
+    ecutwfc = 40.0,
+    ecutrho = 400.0,
     occupations = 'tetrahedra',
-    smearing = 'methfessel-paxton',
-    degauss = 0.001,
     nspin = 2,
     starting_magnetization(2) = +0.5
     starting_magnetization(3) = -0.5
@@ -28,7 +26,7 @@ NiO QE-in
 
  &ELECTRONS
     mixing_beta = 0.7,
-    conv_thr =  1.0d-10,
+    conv_thr =  1.0d-08,
  /
 
  ATOMIC_SPECIES
@@ -48,4 +46,4 @@ NiO QE-in
     1.0  0.5  0.5
 
  K_POINTS {automatic}
-    12 12 12 0 0 0
+    8 8 8 0 0 0
