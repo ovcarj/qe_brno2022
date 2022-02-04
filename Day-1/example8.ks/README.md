@@ -25,7 +25,7 @@ https://gitlab.com/QEF/material-for-ljubljana-qe-summer-school/-/tree/master/Day
 3. Run the postprocessing calculation of all valence and LUMO
    molecular orbitals ( actually sign(psi(r)) * |psi(r)|^2 )
 
-       pp.x -in 02-benzene-pp.in | 02-benzene-pp.out
+       pp.x -in 02-benzene-pp.in | tee 02-benzene-pp.out
 
    the resulting sign(psi(r)) * |psi(r)|^2 are written to files
    `psi2.benzene_K001_B0*.xsf`

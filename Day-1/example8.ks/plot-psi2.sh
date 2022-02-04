@@ -17,4 +17,4 @@ The resulting PNG file with all the MOs is montage.png
 "
 
 # display the result
-eom montage.png
+eog montage.png
