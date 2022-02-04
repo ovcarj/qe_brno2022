@@ -67,4 +67,4 @@
 
 10. Plot the PDOS:
 
-       python plot_pdos.py Fe-dos.dat
+       python plot_pdos.py
