@@ -53,12 +53,14 @@
     less README.md
 
 **Exercise 7:** Calculate the formation energy and observe
-                charge transfer due to bond formation on a LiC6 surface.
+                charge transfer due to bond formation on 
+                a LiC6 surface.
 
     cd example7.charge
     less README.md
 
-**Exercise 8:** Plot the Kohn-Sham orbitals of a single benzene (C6H6) molecule.
+**Exercise 8:** Plot the Kohn-Sham orbitals of a 
+                single benzene (C6H6) molecule.
 
     cd example8.ks
     less README.md
