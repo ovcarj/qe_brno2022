@@ -23,9 +23,10 @@
 
 
 4. Relax the graphite structure with the `LDA` functional
-   by choosing the `C.pbe-rrkjus.UPF` pseudopotential.
+   by choosing the `C.pz-rrkjus.UPF` pseudopotential.
 
 
 5. Compare the relaxations with XcrySDen. 
    What are the final interlayer distances in the three cases?
    Note: the experimental interlayer distance is 3.336 A.
+
