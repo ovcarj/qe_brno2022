@@ -3,9 +3,11 @@
 
 ### Topics of Day-2 hands-on session
 
-- Magnetic systems & projection to atomic orbitals
 - Structure optimization
 - Phonons
+- Magnetic systems
+- Projection to atomic orbitals
+- DFT+U (Hubbard correction)
 - Van der Waals functional
 
 -----------
