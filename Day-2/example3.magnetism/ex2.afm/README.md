@@ -16,7 +16,7 @@
 
        cp -r reference/01-nio-scf/* .
 
-   Otherwise, you can run it yourself in the usual way:
+   Otherwise, you can run it yourself in parallel:
 
        pw.x -in 01-nio-scf.in | tee 01-nio-scf.out
 
@@ -57,12 +57,16 @@
 
 
 7. It's interesting to compare the d-orbital PDOS in calculations
-   with and without the Hubbard correction:
+   with and without the Hubbard correction. To copy the results:
+
+       cp -r reference/04-nio-projwfc/* .
+       python plot_pdos.py no_hubbard
+       python plot_pdos.py hubbard
+
+   To calculate explicitly:
 
        mkdir PDOS
        projwfc.x -in 04-nio-projwfc.in | tee 04-nio-projwfc.out
        projwfc.x -in 04-nio-hub-projwfc.in | tee 04-nio-hub-projwfc.out
        python plot_pdos.py no_hubbard
        python plot_pdos.py hubbard
-
-
